@@ -36,7 +36,7 @@ namespace SpellSchoolCounter
         {
             _schoolsPlayed = new List<SpellSchool>();
             _playedList = new ObservableCollection<Card>();
-            _cardListWidget.Hide();
+            _cardListWidget.Show();
             _cardListWidget.Update(_playedList);
         }
 
@@ -67,7 +67,7 @@ namespace SpellSchoolCounter
             }
             else
             {
-                _cardListWidget.Hide();
+                _cardListWidget.Show();
             }
         }
     }
